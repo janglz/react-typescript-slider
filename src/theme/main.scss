@@ -1,0 +1,61 @@
+.main {
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+html,
+body {
+  background-color: $color-black;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: inherit;
+  color: $color-gray;
+  cursor: default;
+  font-family: $font-family-base;
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+mark {
+  background-color: $color-cyan;
+  border-radius: .5rem;
+  color: $color-purple;
+  padding: 0 .5rem;
+}
+
+.js-focus-visible :focus:not([data-focus-visible-added]) {
+  outline: 0;
+}
+
+.js-focus-visible [data-focus-visible-added] {
+  outline: thin solid $color-white;
+  outline-offset: .125rem;
+}
+
+.app-root {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  width: 100%;
+}
+}
