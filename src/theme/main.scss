@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .main {
   *,
 *::before,
@@ -32,13 +34,6 @@ body {
 
 img {
   max-width: 100%;
-}
-
-mark {
-  background-color: $color-cyan;
-  border-radius: .5rem;
-  color: $color-purple;
-  padding: 0 .5rem;
 }
 
 .js-focus-visible :focus:not([data-focus-visible-added]) {

@@ -1,0 +1,12 @@
+.frame {
+  position: relative;
+  width: 100%;
+  height: 90%;
+
+  &Content {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: -1.2rem;
+  }
+}
