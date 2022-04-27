@@ -1,56 +1,54 @@
 @import './variables.scss';
 
-.main {
   *,
-*::before,
-*::after {
-  box-sizing: border-box;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
-  &::-webkit-scrollbar {
-    display: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
-}
 
-html,
-body {
-  background-color: $color-black;
-  margin: 0;
-  padding: 0;
-}
+  html,
+  body {
+    background-color: $color-black;
+    margin: 0;
+    padding: 0;
+  }
 
-html {
-  height: 100%;
-}
+  html {
+    height: 100%;
+  }
 
-body {
-  background-color: inherit;
-  color: $color-gray;
-  cursor: default;
-  font-family: $font-family-base;
-  min-height: 100%;
-}
+  body {
+    background-color: inherit;
+    color: $color-gray;
+    cursor: default;
+    font-family: $font-family-base;
+    min-height: 100%;
+  }
 
-img {
-  max-width: 100%;
-}
+  img {
+    max-width: 100%;
+  }
 
-.js-focus-visible :focus:not([data-focus-visible-added]) {
-  outline: 0;
-}
+  .js-focus-visible :focus:not([data-focus-visible-added]) {
+    outline: 0;
+  }
 
-.js-focus-visible [data-focus-visible-added] {
-  outline: thin solid $color-white;
-  outline-offset: .125rem;
-}
+  .js-focus-visible [data-focus-visible-added] {
+    outline: thin solid $color-white;
+    outline-offset: .125rem;
+  }
 
-.app-root {
-  align-items: stretch;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: flex-start;
-  width: 100%;
-}
-}
+  .app-root {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    width: 100%;
+  }

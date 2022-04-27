@@ -1,0 +1,18 @@
+.grid {
+  margin: .25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.card {
+  background-color: rgba(247, 246, 249, 0.973);
+  border-radius: .5rem;
+  margin: .125rem;
+  flex-grow: 1;
+  display: flex;
+  min-width: 9rem;
+  max-width: 60rem;
+  min-height: 8rem;
+}

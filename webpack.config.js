@@ -26,7 +26,7 @@ module.exports = {
             options: {
               modules: {
                 mode: 'local',
-                localIdentName: '[path]_[name]'
+                localIdentName: '[path][name]__[local]'
               }
             }
           },
@@ -38,6 +38,7 @@ module.exports = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
+    // modules: [path.join(__dirname, './src')]
   },
   devServer: {
     port: 3000,

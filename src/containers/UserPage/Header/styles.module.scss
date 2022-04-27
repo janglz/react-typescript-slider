@@ -1,0 +1,53 @@
+.header  {
+  height: 5rem;
+  width: 100%;
+  height: 13rem;
+  background-color: rgb(105, 70, 88);
+
+  &Image{
+    height: 10rem;
+    background-color: rgb(221, 179, 207);
+  }
+}
+
+.name {
+
+  &Wrapper>span {
+    display: block;
+  }
+}
+
+.statusIndicator {
+  display: inline-block;
+  width: .6rem;
+  height: .6rem;
+  border-radius: 50%;
+  margin-right: .125rem;
+}
+
+.online  {
+  background-color: #32D44C;
+}
+.offline {
+  background-color: #d43232;
+}
+.info {
+  min-width: 8rem;
+  &Bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.avatarRound {
+  border-radius: 50%;
+  top: -2.5rem;
+  left: .25rem;
+  display: block;
+position: relative;
+background-color: rgb(167, 126, 126);
+width: 8rem;
+height: 8rem;
+z-index: 10;
+}

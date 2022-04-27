@@ -1,11 +1,11 @@
 import React from 'react';
-import Frame from './Frame';
+import UserPage from './containers/UserPage';
 import styles from './theme/main.scss';
 
 const App = function App() {
 	return (
-		<div className={styles.main}>
-			<Frame />
+		<div className="app-root">
+			<UserPage />
 		</div>
 	);
 };

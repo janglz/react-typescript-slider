@@ -1,0 +1,10 @@
+@import '/src/theme/main.scss';
+
+.button {
+  background-color: $color-button;
+  border: none;
+  border-radius: .25rem;
+  color: $color-white;
+  height: 2rem;
+  width: 7rem;
+}
