@@ -7,4 +7,9 @@
   color: $color-white;
   height: 2rem;
   width: 7rem;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba($color-button, .91);
+  }
 }

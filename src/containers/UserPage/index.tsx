@@ -1,4 +1,4 @@
-import Slider from './../../components/Slider';
+import Slider from 'src/components/Slider';
 import React from 'react';
 import Header from './Header';
 import LiveShow from './LiveShow';

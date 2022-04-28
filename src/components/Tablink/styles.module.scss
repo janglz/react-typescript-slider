@@ -1,0 +1,22 @@
+@import 'src/theme/variables.scss';
+
+.tablink {
+  box-sizing: content-box;
+  color: $color-white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 7rem;
+
+  &Active {
+    border-bottom: 3px solid $color-button;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba($color-black, .2);
+  }
+}

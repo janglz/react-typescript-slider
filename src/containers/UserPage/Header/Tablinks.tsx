@@ -12,12 +12,14 @@ const Tablinks = observer(() => {
 		<div className={styles.Tablinks}>
 			<Tablink
 				text="Live Show"
-				className={selectedTab === TABS.LIVE ? styles.activeTab : ''}
+				className={''}
+				active={selectedTab === TABS.LIVE}
 				onClick={() => setTab(TABS.LIVE)}
 			/>
 			<Tablink
 				text="Media"
-				className={selectedTab === TABS.MEDIA ? styles.activeTab : ''}
+				className={''}
+				active={selectedTab === TABS.MEDIA}
 				onClick={() => setTab(TABS.MEDIA)}
 			/>
 		</div>
