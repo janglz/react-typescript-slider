@@ -1,3 +1,4 @@
+import Slider from './../../components/Slider';
 import React from 'react';
 import Header from './Header';
 import LiveShow from './LiveShow';
@@ -8,8 +9,10 @@ const UserPage = function UserPage() {
 	return (
 		<div className={styles.userPage}>
 			<Header data={undefined} />
-			<LiveShow />
-			<Media />
+			<Slider>
+				<LiveShow />
+				<Media />
+			</Slider>
 		</div>
 	);
 };

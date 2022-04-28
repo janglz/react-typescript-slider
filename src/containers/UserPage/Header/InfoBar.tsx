@@ -8,8 +8,12 @@ const InfoBar = function InfoBar() {
 	return (
 		<div className={styles.infoBar}>
 			<Avatar className={styles.avatarRound} />
-			<Info className={''} />
-			<Button text="Watch Now" onClick={undefined} className={''} />
+			<Info className={styles.info} />
+			<Button
+				text="Watch Now"
+				onClick={undefined}
+				className={styles.buttonWatch}
+			/>
 		</div>
 	);
 };

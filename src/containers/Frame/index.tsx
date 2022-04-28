@@ -8,6 +8,8 @@ const Frame = function Frame() {
 				<iframe
 					className={styles.frame}
 					// sandbox="allow-pointer-lock"
+					// height="1200px"
+					// width="100%"
 				/>
 			</div>
 		</div>
