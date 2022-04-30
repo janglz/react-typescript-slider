@@ -22,9 +22,7 @@ const Slider = function Slider({
 				className={styles.slider}
 				style={{
 					width: slidesCommonWidth,
-					// position: 'absolute',
 					position: 'relative',
-					// transform: `translate(${translateTo})`,
 					left: translateTo,
 				}}
 			>

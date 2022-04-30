@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 
 const LiveShow = function LiveShow() {
 	return (
-		<div>
+		<div className={styles.show}>
 			<div className={styles.overlayWrapper}>
 				<Frame />
 				<div className={styles.overlay} />
