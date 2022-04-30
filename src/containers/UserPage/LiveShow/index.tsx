@@ -1,6 +1,6 @@
 import React from 'react';
-import Frame from '../../Frame';
-import Chat from '../../Chat';
+import Frame from 'src/containers/Frame';
+import Chat from 'src/containers/Chat';
 import styles from './styles.module.scss';
 
 const LiveShow = function LiveShow() {

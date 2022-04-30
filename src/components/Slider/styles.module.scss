@@ -1,0 +1,25 @@
+.slider {
+  // display: inline-block;
+  display: flex;
+  // position: absolute;
+  // flex: 1 0 100%;
+  transition: all .5s  ease;
+  // overflow: hidden;
+  // height: fit-content;
+  // height: 10rem;
+  top: 0;
+
+
+  &Wrapper {
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+  }
+}
+
+.slide  {
+  width: 100%;
+  // margin: 1em;
+  height: 100%;
+  // overflow-x: hidden;
+}

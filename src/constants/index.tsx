@@ -1,6 +1,6 @@
 export const TABS = {
-	MEDIA: 'MEDIA',
 	LIVE: 'LIVE',
+	MEDIA: 'MEDIA',
 };
 
 export default { TABS };

@@ -1,9 +1,9 @@
-import Tablink from '../../../components/Tablink';
+import Tablink from 'src/components/Tablink';
 import React from 'react';
 import { observer } from 'mobx-react';
 import styles from './styles.module.scss';
-import { TABS } from '../../../constants';
-import { useStores } from './../../../hooks/useStores';
+import { TABS } from 'src/constants';
+import { useStores } from 'src/hooks/useStores';
 
 const Tablinks = observer(() => {
 	const { setTab, selectedTab } = useStores();

@@ -1,3 +1,9 @@
+@import '/src/theme/variables.scss';
+
 .chat  {
-  background-color: beige;
+  background-color: $color-button;
+  color: $color-black;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
 }
