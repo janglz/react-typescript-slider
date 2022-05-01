@@ -8,7 +8,8 @@ const Chat = function Chat() {
 				<div className={styles.chatMessage}>Chat will be here</div>
 				<div className={styles.chatMessage}>Chat will be here</div>
 				<div className={styles.chatMessage}>
-					Chatlkhjhlljbnl jkhjkhfjkfh will be here
+					Chatlkhjhlljbnl jkhjkhfjkfh
+					laskfjslkfhhhhhhhhhhhhhhhhhhhhhhjklsafjklasjfklsajflskawill be here
 				</div>
 				<div className={styles.chatMessage}>Chat will be here</div>
 				<div className={styles.chatMessage}>Chat will be here</div>
