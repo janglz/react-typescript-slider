@@ -10,7 +10,7 @@ const InfoBar = function InfoBar() {
 			<Avatar className={styles.avatarRound} />
 			<Info className={styles.info} />
 			<Button
-				text="Watch Now"
+				text="Subscribe"
 				onClick={undefined}
 				className={styles.buttonWatch}
 			/>

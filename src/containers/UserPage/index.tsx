@@ -2,7 +2,7 @@ import Slider from 'src/components/Slider';
 import { observer } from 'mobx-react';
 import React from 'react';
 import Header from './Header';
-import LiveShow from './LiveShow';
+import LiveShow from './Live';
 import Media from './Media';
 import styles from './styles.module.scss';
 import { useStores } from 'src/hooks/useStores';

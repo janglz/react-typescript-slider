@@ -2,11 +2,11 @@
 
 .header  {
   width: 100%;
-  background-color: rgb(105, 70, 88);
+  background-color: rgba(136, 175, 196, 0.913);
 
   &Image{
     height: 8rem;
-    background-color: rgb(221, 179, 207);
+    background-color: rgb(179, 198, 221);
   }
 }
 
@@ -51,7 +51,7 @@
   left: .25rem;
   margin: 0 .5rem;
   display: block;
-  background-color: rgb(167, 126, 126);
+  background-color: rgb(151, 148, 148);
   width: 7rem;
   height: 7rem;
   flex-shrink: 0;

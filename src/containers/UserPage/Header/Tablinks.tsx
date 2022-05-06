@@ -11,7 +11,7 @@ const Tablinks = observer(() => {
 	return (
 		<div className={styles.Tablinks}>
 			<Tablink
-				text="Live Show"
+				text="Live"
 				className={''}
 				active={selectedTab === TABS.LIVE}
 				onClick={() => setTab(TABS.LIVE)}
